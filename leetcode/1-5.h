@@ -18,7 +18,7 @@ public:
 		std::string result;
 		char current = '\0';
 		int count = 0;
-		for (int i = 0; i < str.length(); i++)
+		for (size_t i = 0; i < str.length(); i++)
 		{
 			//if we've found a new character, adjust 'current' to that character and set the count to 1
 			if (current != str[i])
